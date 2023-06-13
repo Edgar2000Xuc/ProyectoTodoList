@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Logins</title>
+</head>
+<body>
+  <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Inicia sesión con tus datos</p>
+                <input type="button" value="Registrarse" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+
+                <h2>Iniciar Sesión</h2>
+            </div>
+            <p class="ingreso">Iniciar Sesión con una Cuenta</p>
+            <form class="form" id="login-form">
+                
+                <label>
+                    <i class='bx bx-envelope'>
+                        </i>
+                    <input type="email" placeholder="Correo Electrónico" id="login-email" required>
+                </label>
+                <label>
+                    <i class='bx bxs-lock-alt'>
+                    </i>
+                    <input type="password" placeholder="Contraseña" id="login-password" required>
+                </label>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-form login hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido Nuevamente</h2>
+                <p>Inicia sesión con tus datos</p>
+                <input type="button" value="Iniciar Sesión">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una nueva Cuenta</h2>
+              
+            <p class="ingreso">Puedes usar tu email para registrarte</p>
+            <form class="form">
+                <label>
+                    <i class='bx bxs-user-circle'>
+                        </i>
+                    <input type="text" placeholder="Nombre Completo">
+                </label>
+                <label>
+                    <i class='bx bx-envelope'>
+                        </i>
+                    <input type="email" placeholder="Correo Electrónico" r>
+                </label>
+                <label>
+                    <i class='bx bxs-lock-alt'>
+                    </i>
+                    <input type="password" placeholder="Contraseña">
+                </label>
+                <input type="submit" value="Registrarse" id="sign-up">
+            </form>
+        </div>
+    </div>
+
+<script src="login.js"></script>
+  
+</body>
+</html>
